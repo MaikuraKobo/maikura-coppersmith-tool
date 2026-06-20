@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "maikura_coppersmith_tool",
+  "version": "${version}",
+  "name": "Maikura Coppersmith Tool",
+  "description": "銅ブロックの酸化・復元・ワックス管理を行う建築支援ツール。\n\n右クリックで酸化。\nShift+右クリックで復元。\n空中Shift+右クリックで未ワックス銅の検出表示を切り替え。\n\n銅細工師ツール・極では、自動ワックス塗布とワックス残量管理が利用できます。",
+  "authors": [
+    "Maikura Kobo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/maikura_coppersmith_tool/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jp.maikura.coppersmith.MaikuraCoppersmithToolMod"
+    ],
+    "client": [
+      "jp.maikura.coppersmith.client.MaikuraCoppersmithToolClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}

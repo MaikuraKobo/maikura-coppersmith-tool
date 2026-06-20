@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "maikura_coppersmith_tool:item/coppersmith_tool"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HWH",
+    "OTO",
+    " O "
+  ],
+  "key": {
+    "T": "maikura_coppersmith_tool:coppersmith_tool",
+    "H": "minecraft:honeycomb_block",
+    "W": "minecraft:waxed_oxidized_copper",
+    "O": "minecraft:waxed_copper_block"
+  },
+  "result": {
+    "id": "maikura_coppersmith_tool:waxed_coppersmith_tool",
+    "count": 1
+  },
+  "parent": "minecraft:item/handheld"
+}

@@ -1,2 +1,29 @@
-# maikura-coppersmith-tool
-Building utility tool for oxidizing, restoring and waxing copper blocks. Minecraft 1.21.11 Fabric.
+# Maikura Coppersmith Tool
+
+Minecraft 1.21.11 Fabric 用の建築支援MODです。
+
+## 機能
+
+### 銅細工師ツール
+
+- 右クリック: 銅ブロックを1段階酸化
+- Shift+右クリック: 銅ブロックを1段階復元
+- 空中Shift+右クリック: 未ワックス銅の枠表示ON/OFF
+
+### 銅細工師ツール・極
+
+- ワックス残量を保持
+- オフハンドにハニカムを持って空中右クリック: +5
+- オフハンドにハニカムブロックを持って空中右クリック: +20
+- 最大ワックス残量: 100
+- 酸化/復元後に自動ワックス塗布
+
+## 対応環境
+
+- Minecraft 1.21.11
+- Fabric
+
+## ビルド
+
+```powershell
+.\gradlew.bat build

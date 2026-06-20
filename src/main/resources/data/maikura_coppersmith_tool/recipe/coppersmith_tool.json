@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "O",
+    "S"
+  ],
+  "key": {
+    "C": "minecraft:copper_block",
+    "O": "minecraft:oxidized_copper",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "maikura_coppersmith_tool:coppersmith_tool",
+    "count": 1
+  },
+  "parent": "minecraft:item/handheld"
+}
